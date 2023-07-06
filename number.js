@@ -5,12 +5,13 @@ function result() {
     // document.getElementById("tp").innerHTML = temp
 
     if (a.value < temp) {
+        document.getElementById("tp").innerHTML = " u r wrong " + count + " times" ;
         count = count + 1;
-        document.getElementById("result").innerHTML = "Higher Number please "
-        document.getElementById("result").style.backgroundColor = "coral"
-        
-    }
+        document.getElementById("result").innerHTML = "Higher Number please " ;
+        document.getElementById("result").style.backgroundColor = "coral" ;
+   }
     if (a.value > temp) {
+        document.getElementById("tp").innerHTML = " u r wrong " + count + " times" ;
         count = count + 1
         document.getElementById("result").innerHTML = "Lower Number please "
         document.getElementById("result").style.backgroundColor = "coral"
@@ -21,4 +22,6 @@ function result() {
     
         document.getElementById("result").innerHTML = "you r correct in " + count + " attempts";
     }
+
+
 }

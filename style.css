@@ -1,4 +1,44 @@
-#result{
+body {
+
+    background-color: #f0f0f0;
+}
+
+h1 {
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#result {
     width: fit-content;
-    
+    font-size: large;
+
+}
+
+.number {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    /* width:fit-content; */
+    /* border: 1px solid rebeccapurple; */
+    padding-left: 10px;
+
+
+}
+
+input {
+    width: 200px;
+    height: 25px;
+}
+
+button {
+    margin: 5px;
+    font-size: large;
+    background-color: rgb(223, 243, 91);
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
 }
